@@ -13,6 +13,5 @@
 /html/media/tmp
 /html/media/wysiwyg
 /html/media/.thumbs
-/wwhtmlw/nbproject
 /html/var/*
 !/html/var/.htaccess
