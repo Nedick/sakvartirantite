@@ -5,8 +5,14 @@
             <action method="addItem"><type>skin_css</type><name>css/owl.carousel.css</name></action>
             <action method="addItem"><type>skin_css</type><name>css/owl.theme.default.css</name></action>
             <action method="addItem"><type>skin_js</type><name>js/owl.carousel.js</name></action>
-            <action method="addItem"><type>skin_css</type><name>css/custom.css</name></action>
-            <action method="addItem"><type>skin_js</type><name>js/custom.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/style.css</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
         </reference>
     </default>
+    <cms_index_index>
+        <reference name="homepageslider">
+            <block type="core/template" name="home.mainpageboxes" before="content" template="page/home/mainpageboxes.phtml" after="breadcrumbs"/>
+            <block type="core/template" name="home.mainpageslider" before="content" template="page/home/mainpageslider.phtml" after="breadcrumbs"/>
+        </reference>
+    </cms_index_index>
 </layout>
