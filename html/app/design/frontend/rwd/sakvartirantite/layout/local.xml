@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/owl.carousel.css</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/owl.theme.default.css</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/owl.carousel.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/custom.css</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/custom.js</name></action>
+        </reference>
+    </default>
+</layout>
