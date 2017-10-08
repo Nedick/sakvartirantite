@@ -4,8 +4,10 @@
         <reference name="head">
             <action method="addItem"><type>skin_css</type><name>css/owl.carousel.css</name></action>
             <action method="addItem"><type>skin_css</type><name>css/owl.theme.default.css</name></action>
-            <action method="addItem"><type>skin_js</type><name>js/owl.carousel.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>css/materialize.css</name></action>
             <action method="addItem"><type>skin_css</type><name>css/style.css</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/owl.carousel.js</name></action>
+            <action method="addItem"><type>skin_js</type><name>js/materialize.js</name></action>
             <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
         </reference>
     </default>
